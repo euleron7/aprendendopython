@@ -1,0 +1,5 @@
+salario = float(input('Qual o salário atual do funcionário? R$'))
+novo = salario + (salario * 15 / 100)
+print('O funcionário que ganha R${:.2f} atualmente, passará a ganhar R${:.2f} com o reajuste de 15%.'.format(salario, novo))
+aumento = (salario * 15 / 100)
+print('Sendo o seu amento de R${}.'.format(aumento))
